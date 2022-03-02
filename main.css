@@ -28,6 +28,7 @@ a {
 .container {
   margin: 0 auto;
   background-color: #f4f5f7;
+  padding: 0;
 }
 
 .navbar-collapse {
@@ -36,8 +37,12 @@ a {
 }
 
 .headline {
-  background-color: white;
   border-bottom-left-radius: 80px;
+}
+
+.text-container {
+  max-width: 800px;
+  margin: 120px auto 0 auto;
 }
 
 .bg-image-1 {
@@ -54,7 +59,7 @@ a {
   font-size: 22px;
   font-weight: 500;
   line-height: 24px;
-  margin: 10px 0;
+  margin: 24px 0;
   color: #3a4bea;
   text-transform: uppercase;
 }
@@ -64,8 +69,8 @@ a {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  margin: 10px 0;
-  border: 1px solid red;
+  margin: 10px 0 0 -32px;
+  padding-bottom: 120px;
 }
 
 .works {
@@ -181,8 +186,16 @@ a {
 }
 
 .lg-text-1 {
-  width: 150px;
-  font-size: 2rem;
+  width: 350px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.sm-text-1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #344563;
+  margin: 10px 0;
 }
 
 .bg-color-1 {
