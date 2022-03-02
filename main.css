@@ -45,16 +45,6 @@ a {
   margin: 120px auto 0 auto;
 }
 
-.bg-image-1 {
-  /* background-image: url("./assets/desktop/Header_bg.svg"); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid transparent;
-  width: 100%;
-  height: auto;
-}
-
 .lg-text-3 {
   font-size: 22px;
   font-weight: 500;
